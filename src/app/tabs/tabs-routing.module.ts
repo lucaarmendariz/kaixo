@@ -17,7 +17,7 @@ const routes: Routes = [
       },
       {
         path: 'ayuda',
-        loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+        loadChildren: () => import('../ayuda/tab3.module').then(m => m.Tab3PageModule)
       },
       {
         path: '',
@@ -30,7 +30,7 @@ const routes: Routes = [
     path: '',
     redirectTo: '/tabs/tab1',
     pathMatch: 'full'
-  }
+  },
 ];
 
 @NgModule({
