@@ -1,0 +1,7 @@
+{
+  "name": "kaixo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
